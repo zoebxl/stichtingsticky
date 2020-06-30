@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+body {
+	background-color: #fffff6;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #222;
+	max-width: 1200px;
+}
+
+@media screen and (min-width: 1200px) {
+	body {
+		padding-left: calc((100% - 1200px) / 2);
+	}
+}
+
+h1, h2, h3 {
+ 	color: #111;
+}
+
+a {
+	color: #222;
+}
+
+a:hover {
+	color: #999;
+}
+
+#container {
+	padding-left: 10%;
+	padding-right: 10%
+	padding-top: 1%;
+	width: 80%;
+	margin-left: 0%;
+}
+
+#header {
+	padding: 1%;
+	text-align:center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#logo {
+	width: 300px;
+}
+
+#blockcontainer {
+	display: inline-block;
+	width: 100%;
+}
+
+.infoblock {
+	padding: 2.5%;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+
+@media screen and (min-width: 740px) {
+	.infoblock {
+		float: left;
+		width: calc(100%/3);
+	}
+
+	#contact {
+		text-align: right;
+	}
+
+}
+
+@media screen and (max-width: 739px) {
+	.infoblock {
+		width: 100%;
+	}
+}
+
+#footer {
+	clear: left;
+	text-align:center;
+	font-size: 75%;
+	padding: .5%;
+	margin-top: 0;
+}
+
+button {
+	width: 100%;
+	padding: 20px;
+}
